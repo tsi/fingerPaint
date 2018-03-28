@@ -12,7 +12,7 @@ global.paths = {
 gulp.task('browser-sync', function() {
   browserSync.init({
     server: {
-      baseDir: paths.srcDir
+      baseDir: './'
     },
     files: paths.srcDir + "/**/*"
   });
